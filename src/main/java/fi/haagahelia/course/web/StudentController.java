@@ -16,6 +16,10 @@ import fi.haagahelia.course.domain.DepartmentRepository;
 import fi.haagahelia.course.domain.Student;
 import fi.haagahelia.course.domain.StudentRepository;
 
+
+// The deployed version can be found here  https://heroku-test-gerrits.herokuapp.com/login
+// I have already disabled the H2 option by removing the dependency
+
 @Controller
 public class StudentController {
 	@Autowired
